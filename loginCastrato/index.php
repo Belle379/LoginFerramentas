@@ -10,7 +10,7 @@
   <body>
    <div id="corpo-form">
     <h1> Login </h1>
-     <form method= "POST" action="pro.php">
+     <form method= "POST" action="index.php">
 	<input type="text"     class="form-control" placeholder="Funcionario" required>
 	<input type="password" class="form-control" placeholder="Senha" required>
 	<input type="submit"   value="Entrar"       class="btn float-right login_btn">
