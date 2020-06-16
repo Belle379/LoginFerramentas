@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<title>Login</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="CSS/entrar.css">
-</head>
-<body>
-	
-	<form method="POST">
-		<h1>Acesse a sua conta</h1>
-		<img src="IMAGENS/envelope.png">
-		<input type="email" name="email" autocomplete="off" maxlength="40">
-		<img src="IMAGENS/cadeado.png">
-		<input type="password" name="senha">
-		<input type="submit" value="ENTRAR">
-		<a href="cadastrar.php">Registre-se agora!</a>
-	</form>
-</body>
-</html>
+
+ <head>
+   <meta charset= "utf-8">
+    <title>TAW LOGIN</title> 
+    <link rel="stylesheet"  href="css/designtaw.css">
+ </head>
+  
+  <body>
+   <div id="corpo-form">
+    <h1> Login </h1>
+     <form method= "POST" action="pro.php">
+	<input type="text"     class="form-control" placeholder="Funcionario" required>
+	<input type="password" class="form-control" placeholder="Senha" required>
+	<input type="submit"   value="Entrar"       class="btn float-right login_btn">
+	<a href=""><strong>Cadastrar Funcionario</strong></a>
+     </form>
+   </div>
+ </body> 
+
 
 <?php
 
@@ -44,3 +45,4 @@ if(isset($_POST['email']))
 }
 
 ?>
+</html>
